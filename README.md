@@ -57,7 +57,7 @@ Data e Valor Pago: Valor pago na multa
 + Decisao de Procedência
 
 ## **Em caso de dúvidas, contate a equipe:**   
-Christina Souza ()  
-Cindy Damasceno (cindydjales@gmail.com)  
+Christina Souza (christinass@al.insper.edu.br)  
+Cindy Damasceno (cindymdj@insper.edu.br)  
 Thiellen Rodrigues ()  
-Vanessa Loiola ()
+Vanessa Loiola (vanessall@al.insper.edu.br)
