@@ -43,18 +43,18 @@ Apesar da resposta chegar com celeridade, os documentos enviados pelo Ministéri
 
 #### Colunas desconsideradas
 
-+ Numero AI
-+ Ultima Movimentacao: Ultima movimentação no processo (eu acho)
-Data e Valor Pago: Valor pago na multa
-+ Situacao Atual
-+ dt decisao 1a 
-+ decisao 1a 
-+ dt recurso
-+ dt decisao 2a 
-+ Decisao 2a 
-+ Decisao Definitiva
-+ Processo Encerrado
-+ Decisao de Procedência
++ ``Numero AI``
++ ``Ultima Movimentacao:`` 
++ ``Data e Valor Pago``
++ ``Situacao Atual``
++ ``dt decisao 1a``
++ ``decisao 1a`` 
++ ``dt recurso``
++ ``dt decisao 2a`` 
++ ``Decisao 2a`` 
++ ``Decisao Definitiva``
++ ``Processo Encerrado``
++ ``Decisao de Procedência``
 
 ## **Em caso de dúvidas, contate a equipe:**   
 Christina Souza (christinass@al.insper.edu.br)  
