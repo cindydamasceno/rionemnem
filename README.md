@@ -19,15 +19,22 @@ Apesar de volumosa, a base de dados cedida se mostrou simples o suficiente para 
 ### Cálculo por empresa
 Para perceber a proporção entre autuações e multas, foi feito um cruzamento a partir do **número de CNPJ**, presente em ambas as tabelas, através do operador ``=PROCV``. Apesar da base original indicar uma possível presença de CPF (Cadastro de Pessoa Física) ou CEI (Cadastro Específico do INSS) como identificadores dos alvos das autuações, essas informações foram desconsideradas. Isso porque fugiram da proposta da análise (garantir que somente empresas entrassem na leitura da base de dados).  
 
-O resultado foi uma nova tabela que selecionou as empresas multadas (Tabela 2) entre as autuadas (Tabela1). Este novo documento trouxe informações como Razão Social, UF da empresa, Data autuação,	Valor da Multa,	Data e Valor Pago. Como fugiam da proposta, outros valores foram desconsiderados após análise da equipe (ver colunas desconsideradas). 
+O resultado foi uma nova tabela **(Base Limpa)**, que selecionou as empresas multadas **(Tabela 2)** entre as autuadas **(Tabela1)**. Este novo documento trouxe informações como ``Razão Social``, ``UF da empresa (SGUF)``, ``Data autuação``,	``Valor da Multa (vlmulta)``,	``Data e Valor Pago``. Como fugiam da proposta, outros valores foram desconsiderados após análise da equipe [**(ver colunas desconsideradas)**](https://github.com/cindydamasceno/rionemnem#colunas-desconsideradas). 
 
 Com isso em mãos, iniciamos o cálculo da multa por empresa. Uma vez que um mesmo estabelecimento poderia ter sido multado mais de uma vez, utilizamos a **tabela dinâmica** para somar a coluna ``vlmulta``nos ``CNPJ`` iguais.  
 
 ### Cálculo por Unidade Federativa (UF)
 Processo similar foi feito para cálculo do valor da multa por UF, mas com a soma de ``SGUF``para encontar o valor absoluto.  
 
-### Cálculo por dias até o pagamento da multa
+### Cálculo do valor pago
+Para separar a Data de Pagamento do Valor Pago (os dois estavam unidos na coluna ``Data e Valor Pago``), foi utilizado o operador ``=EXT.TEXTO``. Ele permite selecionar apenas uma porção de caracteres de uma célula específica. Neste caso, para selecionar a porção de informação apenas com os valores, foi utilizado a função a seguir: 
 
+```
+=EXT.TEXTO(A2;13;22)
+```
+
+### Cálculo por dias até o pagamento da multa
+Uma vez que ADICIONAR DEPOIS DA THIELLEN
 
 ### Como contornar os problemas de documentação
 Apesar da resposta chegar com celeridade, os documentos enviados pelo Ministério do Trabalho e Emprego (MTE) não foram disponibilizados com um Dicionário de Dados. Desta forma, a equipe optou por restringir a análise apenas aos dados identificáveis, como UF e Razão Social. Os valores desconsiderados, no entanto, foram avaliados antes da exclusão. Percebeu-se que eles não afetariam os cálculos principais. 
