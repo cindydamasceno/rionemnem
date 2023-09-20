@@ -1,5 +1,5 @@
 # (Grupo 4 ) | Exploração da Base de Dados sobre multas por violação da Lei 8.213/91 (Lei das Cotas)
-*Exercício final para disciplina de Fundamentos e Ética do Jornalismo de Dados, do Master em Jornalismo de Dados, Automação e Storytelling do Insper. As duas coletâneas de dados que serviram de base para esta análise foram obtidas pela equipe através de Lei de Acesso a Informação (LAI). Para manter o propósito da replicabilidade – e ampliar o terreno para análises posteriores – ambas foram adicionadas no formato bruto. **[(ver Problemas de Documentação)](https://github.com/cindydamasceno/rionemnem/blob/main/README.md#problemas-de-documenta%C3%A7%C3%A3o)***
+*Exercício final para disciplina de Fundamentos e Ética do Jornalismo de Dados, do Master em Jornalismo de Dados, Automação e Storytelling do Insper. As duas coletâneas de dados que serviram de base para esta análise foram obtidas pela equipe através de Lei de Acesso a Informação (LAI). Para manter o propósito da replicabilidade – e ampliar o terreno para análises posteriores – ambas foram adicionadas no formato bruto. **[(ver Problemas de Documentação)]([https://github.com/cindydamasceno/rionemnem/blob/main/README.md#problemas-de-documenta%C3%A7%C3%A3o](https://github.com/cindydamasceno/rionemnem/blob/main/README.md#como-contornar-os-problemas-de-documenta%C3%A7%C3%A3o))***
 
 <hr>
 
