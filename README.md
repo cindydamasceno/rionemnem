@@ -19,7 +19,7 @@ Apesar de volumosa, a base de dados cedida se mostrou simples o suficiente para 
 ### Cálculo por empresa
 Para perceber a proporção entre autuações e multas, foi feito um cruzamento a partir do **número de CNPJ**, presente em ambas as tabelas, através do operador ``=PROCV``. Apesar da base original indicar uma possível presença de CPF (Cadastro de Pessoa Física) ou CEI (Cadastro Específico do INSS) como identificadores dos alvos das autuações, essas informações foram desconsideradas. Isso porque fugiram da proposta da análise (garantir que somente empresas entrassem na leitura da base de dados).  
 
-O resultado foi uma nova tabela **(Base Limpa)**, que selecionou as empresas multadas **(Tabela 2)** entre as autuadas **(Tabela1)**. Este novo documento trouxe informações como ``Razão Social``, ``UF da empresa (SGUF)``, ``Data autuação``,	``Valor da Multa (vlmulta)``,	``Data e Valor Pago``. Como fugiam da proposta, outros valores foram desconsiderados após análise da equipe [**(ver colunas desconsideradas)**](https://github.com/cindydamasceno/rionemnem#colunas-desconsideradas). 
+O resultado foi uma nova tabela **[(Base Limpa)](https://github.com/cindydamasceno/rionemnem/blob/main/base_limpa_pcd.xlsx)**, que selecionou as empresas multadas **(Tabela 2)** entre as autuadas **(Tabela1)**. Este novo documento trouxe informações como ``Razão Social``, ``UF da empresa (SGUF)``, ``Data autuação``,	``Valor da Multa (vlmulta)``,	``Data e Valor Pago``. Como fugiam da proposta, outros valores foram desconsiderados após análise da equipe [**(ver colunas desconsideradas)**](https://github.com/cindydamasceno/rionemnem#colunas-desconsideradas). 
 
 Com isso em mãos, iniciamos o cálculo da multa por empresa. Uma vez que um mesmo estabelecimento poderia ter sido multado mais de uma vez, utilizamos a **tabela dinâmica** para somar a coluna ``vlmulta``nos ``CNPJ`` iguais.  
 
@@ -54,9 +54,7 @@ Data e Valor Pago: Valor pago na multa
 + Processo Encerrado
 + Decisao de Procedência
 
-
-<hr>
-**Em caso de dúvidas, contate a equipe:** <p>
+## **Em caso de dúvidas, contate a equipe:**   
 Christina Souza ()  
 Cindy Damasceno (cindydjales@gmail.com)  
 Thiellen Rodrigues ()  
