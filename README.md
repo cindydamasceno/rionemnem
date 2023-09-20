@@ -4,17 +4,13 @@
 <hr>
 
 ## **Bases de Dados utilizadas** 📝 <p>
-+ Lei de Acesso a Informação (LAI)
-  +  [Empresas Autuadas](https://docs.google.com/spreadsheets/d/e/2PACX-1vSJvupd56sb2ZRevopDkuOKeWSENM_Js0M_knEvqbkxaNGo2Et2VPHztp6dcYIA1Lvldo81QV-yUSTc/pub?gid=884936710&single=true&output=csv): relação de empresas autuadas por descumprirem a Lei 8.213/91 entre janeiro de 2019 e março de 2023
-  +  Empresas Multadas: relação de empresas multadas por descumprirem a Lei 8.213/91 entre março de 2019 e março de 2023
++ [**Ver Bases Originais**](https://github.com/cindydamasceno/rionemnem/tree/main/Bases%20originais%20sem%20tratamento)
+  +  Empresas Autuadas: relação de empresas autuadas por descumprirem a Lei 8.213/91 entre março de 2019 e março de 2023, obtida através de solicitação via LAI ao Ministerio do Trabalho e Emprego (MTE) [**(veja solicitação aqui)**](https://github.com/cindydamasceno/rionemnem/blob/main/DetalhesManifestacaoLai.pdf)  
+  +  Empresas Multadas: relação de empresas multadas por descumprirem a Lei 8.213/91 entre março de 2019 e março de 2023 [**(veja solicitação aqui)**](https://github.com/cindydamasceno/rionemnem/blob/main/DetalhesManifestacaoLai.pdf)
 
 ## Limpeza, padronização e documentação
 
-Para responder às necessidades, 
-
-[ver documentação Empresas Autuadas]
-
-#dicionario de dados# 
+Apesar da resposta chegar com celeridade, os documentos enviados pelo Ministério do Trabalho e Emprego (MTE) 
 
 
 
