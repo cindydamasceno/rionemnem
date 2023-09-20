@@ -44,7 +44,7 @@ Apesar da resposta chegar com celeridade, os documentos enviados pelo Ministéri
 #### Colunas desconsideradas
 
 + ``Numero AI``
-+ ``Ultima Movimentacao:`` 
++ ``Ultima Movimentacao`` 
 + ``Data e Valor Pago``
 + ``Situacao Atual``
 + ``dt decisao 1a``
