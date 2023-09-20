@@ -34,7 +34,9 @@ Para separar a Data de Pagamento do Valor Pago (os dois estavam unidos na coluna
 ```
 
 ### Cálculo por dias até o pagamento da multa
-Uma vez que ADICIONAR DEPOIS DA THIELLEN
+Na coluna ``Data e valor pago`` da base crua de empresas que foram multadas continha em formato de texto a data de pagamento e os valores. Para extrair apenas a data utilizamos a formula ``=ESQUERDA``, buscando os 10 caracteres à esquerda das células. Foi preciso **unificar formatos**, pois algumas datas usavam separadores diferentes e estavam sendo reconhecidas apenas como texto. Após essa limpeza, foi gerada uma coluna calculada **subtraindo a data de pagamento da coluna ``Data da autuação``**, obtendo assim o **intervalo em dias**. 
+
+Com a informação linha a linha de tempo em dias para pagamento de cada multa, foi possível gerar uma ``tabela dinâmica`` condensando por UF e gerando a média por estado de dias para pagamento das multas.
 
 ### Como contornar os problemas de documentação
 Apesar da resposta chegar com celeridade, os documentos enviados pelo Ministério do Trabalho e Emprego (MTE) não foram disponibilizados com um Dicionário de Dados. Desta forma, a equipe optou por restringir a análise apenas aos dados identificáveis, como UF e Razão Social. Os valores desconsiderados, no entanto, foram avaliados antes da exclusão. Percebeu-se que eles não afetariam os cálculos principais. 
